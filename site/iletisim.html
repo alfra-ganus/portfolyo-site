@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="Elif Naz Üçkardeş" content="portfolyo sitesi örneği">
+    <meta keywords="elif,naz,üçkardeş,portfolyo,site,şablon">
+    <title>Elif Naz Üçkardeş</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+    <header class="ust-bolum">
+        <div class="kutu">
+             <div id="bas">
+        <span>
+            <h1>Elif Naz Üçkardeş</h1>
+            </span>
+            <span id="bas-logo">
+            <img src="resim/örnek_logo.png" alt="Logo">
+
+            </span>
+             </div>
+             <br>
+            <p>Bilgisayar Mühendisliği 1. Sınıf Öğrencisi</p>
+        </div>
+    </header>
+
+
+    <nav class="ana-menu">
+        <div class="kutu">
+            <ul>
+                <li><a href="index.html">Hakkımda</a></li>
+                <li><a href="projeler.html">Projeler</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+            <div class="sifirlama"></div>
+        </div>
+    </nav>
+
+    <section>
+
+        <form name="iletisim" action="#" method="get"> <!--form gönderimi kontrolü icin gette biraktim. Şimdilik herhangi bir dosyaya göndermiyor-->
+            <table class="tablo1">
+                <tr>
+                    <td class="form-yazi">Ad-Soyad:</td>
+                    <td  rowspan="2">
+                        <input class="form-cevap" type="text" name="isim" placeholder="ad-soyad" maxlength="30" size="30" required>
+                    </td>
+                </tr>
+
+                <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr> <!--satir arasi bosluk icin-->
+
+                <tr>
+                    <td class="form-yazi">Konu:</td>
+                    <td rowspan="2">
+                        <input class="form-cevap" type="text" name="konu" size="30" placeholder="konu" required>
+                    </td>
+                </tr>
+
+                <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr> <!--satir arasi bosluk icin-->
+
+                <tr>
+                    <td class="form-yazi">Mesaj:</td>
+                    <td>
+                        <textarea class="form-cevap" name="mesaj" rows="8" cols="30" maxlength="500" placeholder="500 karakter siniri vardir..." required></textarea>
+                    </td>
+                </tr>
+
+                <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr> <!--satir arasi bosluk icin-->
+
+            </table>
+
+            <br>
+
+           <span> <!--hizalama icin-->
+            <input  class="buton1" type="submit" name="submit">
+
+           <input  class="buton2" type="reset" name="reset">
+        </span>
+
+        </form>
+
+    </section>
+
+
+        <footer>
+       <div class="kutu">
+            <h3>Ziyaretiniz İçin Teşekkürler</h3>
+        <div id="ilk">
+        <span>
+            <p>elifnaz@uckardes.com</p>
+            </span>
+            <span id="donus">
+        <a href="#">
+            <img src="resim/arrow-up.png" alt="Başa Dönüş">
+        </a>
+       </span>
+       </div>
+            <p>Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
